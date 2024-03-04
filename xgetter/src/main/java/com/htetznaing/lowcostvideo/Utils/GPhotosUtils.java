@@ -40,17 +40,13 @@ public class GPhotosUtils {
 
     public static ArrayList<XModel> getGPhotoLink(String string) {
         string = cleanString(string);
-        final String regex = "https:\\/\\/(.*?)=m(22|18|37|36)";
+        final String regex = "https:\/\/(.*?)=m(22|18|37|36)";
         final Pattern pattern = Pattern.compile(regex);
         final Matcher matcher = pattern.matcher(string);
         ArrayList<XModel> xModels = new ArrayList<>();
         boolean p18=false,p22=false,p37=false,p36=false;
 
-        String or = getOriginal(string);
-        if (or!=null) {
-            putModel(getOriginal(string), "Original", xModels);
-        }
-
+        
         while (matcher.find()) {
             switch (matcher.group(2)){
                 case "36":
@@ -83,7 +79,7 @@ public class GPhotosUtils {
     }
 
     public static String getOriginal(String string){
-        final String regex = "https:\\/\\/video-downloads(.*?)\"";
+        final String regex = "https:\/\/video-downloads(.*?)\"";
         final Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
         final Matcher matcher = pattern.matcher(string);
         if (matcher.find()) {
