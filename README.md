@@ -7,15 +7,7 @@ I change something to comply with Google play policy.
 # xGetter Library for Android!  
 [![](https://jitpack.io/v/KhunHtetzNaing/XGetter.svg)](https://jitpack.io/#KhunHtetzNaing/XGetter)  
 
-ရုပ်ရှင်နဲ့ Video App ဖန်တီးချင်သူတွေအနေနဲ့  
-အသုံးဝင်မယ့် Library လေးပါ။   
-ကြော်ငြာကြည့်စရာမလိုပဲ  
-တိုက်ရိုက်ဒေါင်းဖို့လင့်ဆွဲထုတ်ပေးနိုင်ပြီး
-ရလာတဲ့လင့်ကို တိုက်ရိုက်ဒေါင်းမလား  
-ကိုယ်ပိုင် Player နဲ့တိုက်ရိုက်ပြမလား  
-အဆင်ပြေသလိုအသုံးချနိုင်ပါတယ်။  
-လောလာဆယ်ပါဝင်တဲ့ Site တွေကတော့  
-  
+ 
  - **1. Google Drive**  
  - **2. DailyMotion**  
  - **3. Google Photos**  
@@ -49,17 +41,10 @@ I change something to comply with Google play policy.
 - **28. 4Shared**
 - **29. StreamTape**
 - **30. Vudeo**
-  
-  
-တို့ပဲဖြစ်ပါတယ်။  
-ဒီဆိုဒ်တွေအားလုံးကနေ ကြော်ငြာကြည့်စရာမလိုပဲတိုက်ရိုက်လင့်ထုတ်ပေးမှာပါ။  
-အခြားအခမဲ့ Video တင်လို့ရတဲ့ Site တွေကိုလည်းထပ်ဖြည့်ပေးသွားပါ့မယ် :)  
-အဲ့တော့ Video Sharing App အတွက် Host ဝယ်စရာမလိုတော့ဘူးလေနော် ;)  
-  
-အသုံးပြုနည်း  
+
 ===========  
   
-ပထမဦးဆုံး **build.gradle(project)** ထဲက  
+**build.gradle(project)** 
   
 
     allprojects {
@@ -76,13 +61,10 @@ I change something to comply with Google play policy.
     	implementation 'com.github.KhunHtetzNaing:xGetter:3.0'
     }
 
-**Android Studio** သမားတွေဆိုရင်တော့ **Sync Now** လုပ်ပေးပါ။  
-**AIDE** သမားဆိုရင်တော့ **Save** ပြီး **Download** လုပ်ခိုင်းရင်လုပ်ပေးပါ။  
-**မှတ်ချက်။ ။အင်တာနက်ဖွင့်ထားဖို့လိုပါမယ်**  
   
   If not working [download this jar](https://github.com/KhunHtetzNaing/xGetter/raw/master/app/release/xgetter.jar) file and put to **YourProject/app/libs/**
   
-**AndroidManifest.xml** ထဲမှာ  
+**AndroidManifest.xml**
   
 
      <application .....
@@ -132,7 +114,7 @@ Okhttp3 ကိုအသုံးပြုထားသည့်အတွက်
     -dontwarn okhttp3.internal.platform.ConscryptPlatform
 
   
-အသုံးပြုရတာလည်းလွယ်ပါတယ် :)  
+
 - Example APK => https://bit.ly/3bZ2GHX
 - Example Project => http://bit.ly/2Sr6Hiw  
 - Repo => https://github.com/KhunHtetzNaing/xGetter  
