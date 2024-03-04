@@ -37,7 +37,7 @@ public class VK {
 
                         try {
                             ArrayList<XModel> models = new ArrayList<>();
-                            String x240="url240",x360="url360",x480="url480",x720="url720",x1080="url1080","x1440=url1440p","x2160=url2160"  ;
+                            String x240="url240",x360="url360",x480="url480",x720="url720",x1080="url1080";
                             JSONObject object = new JSONArray(json).getJSONObject(4).getJSONObject("player").getJSONArray("params").getJSONObject(0);
 
                             if (object.has(x240)){
@@ -58,12 +58,6 @@ public class VK {
 
                             if (object.has(x1080)){
                                 putModel(object.getString(x1080),"1080p",models);
-                            }
-							 if (object.has(x1440)){
-                                putModel(object.getString(x1440),"1440p",models);
-                            }
-							 if (object.has(x2160)){
-                                putModel(object.getString(x2160),"2160p",models);
                             }
                             onComplete.onTaskCompleted(sortMe(models),true);
                         } catch (JSONException e) {
