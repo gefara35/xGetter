@@ -28,7 +28,7 @@ Khun Htetz Naing
 public class OKRU {
     public static void fetch(String url, final LowCostVideo.OnTaskCompleted onComplete){
         AndroidNetworking.get(fixURL(url))
-                .addHeaders("User-agent", "Mozilla/5.0 (Linux; Android 4.1.1; Galaxy Nexus Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19")
+                .addHeaders("User-agent", agent)
                 .build()
                 .getAsString(new StringRequestListener() {
                     @Override
