@@ -37,7 +37,7 @@ public class VK {
 
                         try {
                             ArrayList<XModel> models = new ArrayList<>();
-                            String x240="url240",x360="url360",x480="url480",x720="url720",x1080="url1080","x1440=ur1440p","x2160=ur2160"  ;
+                            String x240="url240",x360="url360",x480="url480",x720="url720",x1080="url1080","x1440=url1440p","x2160=url2160"  ;
                             JSONObject object = new JSONArray(json).getJSONObject(4).getJSONObject("player").getJSONArray("params").getJSONObject(0);
 
                             if (object.has(x240)){
