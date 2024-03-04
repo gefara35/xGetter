@@ -5,7 +5,7 @@ I change something to comply with Google play policy.
 - Rewrite codes
 
 # xGetter Library for Android!  
-[![](https://jitpack.io/v/KhunHtetzNaing/XGetter.svg)](https://jitpack.io/#KhunHtetzNaing/XGetter)  
+[![](https://jitpack.io/v/gefara35/XGetter.svg)](https://jitpack.io/#gefara35/XGetter)  
 
  
  - **1. Google Drive**  
